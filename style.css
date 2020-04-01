@@ -14,3 +14,12 @@
 .row {
     margin: 50px;
 }
+
+
+#quiz-screen2-hidden {
+    display: none;
+}
+
+#quiz-screen2-show {
+    display: block;
+}

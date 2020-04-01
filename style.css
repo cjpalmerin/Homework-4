@@ -1,0 +1,16 @@
+.hidden {
+    display: none !important;
+}
+
+
+#quiz-screen1-hidden {
+    display: none;
+}
+
+#quiz-screen1-show {
+    display: block;
+}
+
+.row {
+    margin: 50px;
+}

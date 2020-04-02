@@ -23,3 +23,35 @@
 #quiz-screen2-show {
     display: block;
 }
+
+#quiz-screen3-hidden {
+    display: none;
+}
+
+#quiz-screen3-show {
+    display: block;
+}
+
+#quiz-screen4-hidden {
+    display: none;
+}
+
+#quiz-screen4-show {
+    display: block;
+}
+
+#quiz-screen5-hidden {
+    display: none;
+}
+
+#quiz-screen5-show {
+    display: block;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 50px;
+}

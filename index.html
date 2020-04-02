@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light nav-css navbar-justify">
-        <a class="navbar-brand " href="highscores.html">High Scores</a>
+        <a class="navbar-brand " href="index.html">Restart</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -74,6 +74,77 @@
             </div>
         </div>
     </div>
+
+    <div class="container" id="quiz-screen3-hidden">
+        <div class = "row">
+            <div class="col-md-12">
+                <h1>String values must be enclosed in ______ when being assigned to variables:</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-md-12">
+
+                <button type="button" class="btn btn-primary" id="incorrect-answer7">commas</button>
+                <button type="button" class="btn btn-primary" id="incorrect-answer8">curly braces</button>
+                <button type="button" class="btn btn-primary" id="correct-answer3">quotes</button>
+                <button type="button" class="btn btn-primary" id="incorrect-answer9">parentheses</button>
+
+                <p id="notification3"></div>
+                <div id="next-question3"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="quiz-screen4-hidden">
+        <div class = "row">
+            <div class="col-md-12">
+                <h1>A very useful tool used during development and debugging for printing content to the debugger is:</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-md-12">
+
+                <button type="button" class="btn btn-primary" id="incorrect-answer10">JavaScript</button>
+                <button type="button" class="btn btn-primary" id="incorrect-answer11">terminal/bash</button>
+                <button type="button" class="btn btn-primary" id="incorrect-answer12">for loops</button>
+                <button type="button" class="btn btn-primary" id="correct-answer4">console.log</button>
+
+                <p id="notification4"></div>
+                <div id="next-question4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="quiz-screen5-hidden">
+        <div class = "row">
+            <div class="col-md-12">
+                <h1>All done!</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-md-12">
+
+                <p>Your final score is: <h3 id="finalScore"></h3></p>
+                <form>
+                    <input id="inpKey" placeholder="Put Your Initials Here!">
+                    <input id="inpValue" placeholder="Put Your Score Here!">
+                    <button id="btnInsert" type="button" class="btn btn-primary ">Submit</button>
+                </form>
+            
+                <h4>High Scores</h4>
+                <ul>
+                 <li id="lsOutput"></li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 
     <!-- <div class="container" id="quiz-screen1-hidden">
